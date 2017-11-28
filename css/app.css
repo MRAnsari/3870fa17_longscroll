@@ -1,0 +1,40 @@
+#canvas {
+  border: 1px solid red;
+  width: 400px;
+  height: 10000px;
+  margin: 0 auto;
+  position: relative;
+  //top:100px;
+  }
+#counter {
+  border: 1px solid blue;
+  background-color:lightblue;
+  width: 200px;
+  height: 30px;
+  //margin: 0 auto;
+  top:123px;
+  left: 90px;
+  position:absolute;
+  z-index:10;
+  //opacity:0.5;
+  }
+
+hi{
+  border: 1px solid orange;
+  background-color:yellow;
+  position:absolute;
+  width:200px;
+  height:30px;
+  top:120px;
+  left:100px;
+  z-index:11;
+  opacity:0.9;
+}
+
+#icon {
+  width:200px;
+  position:absolute;
+  left: 100px;
+}
+/*relative, absolute, fixed, static*/
+/*http://barelyfitz.com/screencast/html-training/css/positioning*/
