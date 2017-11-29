@@ -1,12 +1,34 @@
+/*font-family: 'Montserrat', sans-serif;*/
+/*font-family: 'Satisfy', cursive;*/
+
 #canvas {
   border: 1px solid red;
-  width: 400px;
-  height: 10000px;
+  width: 1000px;
+  height: 22000px;
   margin: 0 auto;
   position: relative;
   //top:100px;
   }
-#counter {
+
+#title {
+  border: 1px solid yellow;
+  top:50px;
+  position: absolute;
+  left: 80px;
+  font-family: 'Satisfy', cursive;
+  font-size: 2.3em;
+}
+
+#poem {
+  border: 1px solid pink;
+  top:150px;
+  position: absolute;
+  left: 50px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.2em;
+}
+
+/*#counter {
   border: 1px solid blue;
   background-color:lightblue;
   width: 200px;
@@ -17,9 +39,9 @@
   position:absolute;
   z-index:10;
   //opacity:0.5;
-  }
+  }*/
 
-hi{
+/*hi{
   border: 1px solid orange;
   background-color:yellow;
   position:absolute;
@@ -29,12 +51,12 @@ hi{
   left:100px;
   z-index:11;
   opacity:0.9;
-}
+}*/
 
-#icon {
+/*#icon {
   width:200px;
   position:absolute;
   left: 100px;
-}
+}*/
 /*relative, absolute, fixed, static*/
 /*http://barelyfitz.com/screencast/html-training/css/positioning*/
