@@ -1,31 +1,42 @@
 /*font-family: 'Montserrat', sans-serif;*/
 /*font-family: 'Satisfy', cursive;*/
 
+body {
+  background: #1b2259; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(#194b7d, #1b2259); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(#194b7d, #1b2259); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(#194b7d, #1b2259); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(#194b7d, #1b2259); /* Standard syntax */
+}
+
 #canvas {
-  border: 1px solid red;
+  /*border: 1px solid red;*/
   width: 1000px;
-  height: 22500px;
+  height: 23500px;
   margin: 0 auto;
   position: relative;
   //top:100px;
   }
 
 #title {
-  border: 1px solid yellow;
-  top:50px;
+  /*border: 1px solid yellow;*/
+  top:400px;
   position: absolute;
-  left: 80px;
+  left: 60px;
   font-family: 'Satisfy', cursive;
   font-size: 2.3em;
+  color: rgba(255, 247, 97, 1);
 }
 
 #poem {
-  border: 1px solid pink;
-  top:150px;
+  /*border: 1px solid pink;*/
+  /*top:150px;*/
+  top: 500px;
   position: absolute;
   left: 50px;
   font-family: 'Montserrat', sans-serif;
   font-size: 1.2em;
+  color: rgba(255, 247, 97, 0.1);
 }
 
 /*#counter {
