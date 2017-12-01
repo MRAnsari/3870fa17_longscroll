@@ -18,6 +18,15 @@ body {
   //top:100px;
   }
 
+#inst {
+  top:250px;
+  position: absolute;
+  left: 280px;
+  font-family: 'Satisfy', cursive;
+  font-size: 2.3em;
+  color: rgba(255, 247, 97, 1);
+}
+
 #title {
   /*border: 1px solid yellow;*/
   top:400px;
@@ -25,7 +34,7 @@ body {
   left: 60px;
   font-family: 'Satisfy', cursive;
   font-size: 2.3em;
-  color: rgba(255, 247, 97, 1);
+  color: rgba(255, 247, 97, 0.1);
 }
 
 #poem {
