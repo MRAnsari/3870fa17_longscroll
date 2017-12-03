@@ -2,6 +2,9 @@ var canvas = document.getElementById("canvas");
 // var counter = document.getElementById("counter");
 var poem = document.getElementById("poem");
 var inst = document.getElementById("inst");
+// var stars = document.getElementById("stars");
+var moon = document.getElementById("moon");
+
 
 window.onscroll = function(){
   var y = window.pageYOffset;
@@ -11,10 +14,7 @@ window.onscroll = function(){
     inst.style.top = 250 + y *.4 + "px";
     title.style.top = 400 + y * .75 + "px";
     if      (y > 0 && y < 1370)      {poem.style.top = 500 + y * .75 + "px";}
-    else                          {poem.style.top = 150 + y + "px";}
-    // else if (y > 1370 && y < 22000)  {poem.style.top = 150 + y + "px";}
-    // else if (y > 22000 && y < 23500) {poem.style.top = 150 + y * .75 + "px";}
-    // else                             {poem.style.top = 150 + y * "px";}
+    else                             {poem.style.top = 150 + y + "px";}
 
 // TITLE FADE IN
     if (y > 0 && y < 500)       {title.style.color = "rgba(255, 247, 97, 0.1)";}
@@ -60,7 +60,12 @@ window.onscroll = function(){
     if (y > 21000 && y < 22000) {line18.style.color = "rgba(255, 247, 97, 1)";}
     else                        {line18.style.color = "rgba(255, 247, 97, 0.1)";}
 
+// MOON
+    moon.style.top = 1300 + y * .945 +"px";
 
+
+// STARS MOVEMENT
+    // stars.style.top = 3000 + y * 1 + "px";
 
 
     // poem.innerHTML = y + "px";

@@ -21,7 +21,7 @@ body {
 #inst {
   top:250px;
   position: absolute;
-  left: 280px;
+  left: 400px;
   font-family: 'Satisfy', cursive;
   font-size: 2.3em;
   color: rgba(255, 247, 97, 1);
@@ -44,9 +44,128 @@ body {
   position: absolute;
   left: 50px;
   font-family: 'Montserrat', sans-serif;
-  font-size: 1.2em;
+  font-size: 1em;
   color: rgba(255, 247, 97, 0.1);
+  font-weight: bold;
+  z-index:9;
 }
+
+/*#stars {
+  border: 1px solid red;
+  position: absolute;
+  width: 900px;
+  height: 20500px;
+}*/
+
+#moon {
+  position: absolute;
+  top: 1700px;
+  left: 700px;
+  z-index: 2;
+}
+
+#cloud1 {
+  position: absolute;
+  left: 200px;
+  top: 11000px;
+  z-index: 3;
+}
+
+#cloud2 {
+  position: absolute;
+  left: 500px;
+  top: 20000px;
+  z-index: 3;
+}
+
+#cloud3 {
+  position: absolute;
+  left: 700px;
+  top: 15000px;
+  z-index: 3;
+}
+
+#star01 {position: absolute; top: 4000px; left: 50px; z-index:1;}
+#star02 {position: absolute; top: 4500px; left: 250px; z-index:1;}
+#star03 {position: absolute; top: 4300px; left: 450px; z-index:1;}
+#star04 {position: absolute; top: 4700px; left: 650px; z-index:1;}
+#star05 {position: absolute; top: 5000px; left: 850px; z-index:1;}
+#star06 {position: absolute; top: 5200px; left: 50px; z-index:1;}
+#star07 {position: absolute; top: 5500px; left: 250px; z-index:1;}
+#star08 {position: absolute; top: 5700px; left: 450px; z-index:1;}
+#star09 {position: absolute; top: 6000px; left: 650px; z-index:1;}
+#star10 {position: absolute; top: 6100px; left: 850px; z-index:1;}
+#star11 {position: absolute; top: 6300px; left: 50px; z-index:1;}
+#star12 {position: absolute; top: 6600px; left: 250px; z-index:1;}
+#star13 {position: absolute; top: 6900px; left: 450px; z-index:1;}
+#star14 {position: absolute; top: 7100px; left: 650px; z-index:1;}
+#star15 {position: absolute; top: 7500px; left: 850px; z-index:1;}
+#star16 {position: absolute; top: 7800px; left: 50px; z-index:1;}
+#star17 {position: absolute; top: 8000px; left: 250px; z-index:1;}
+#star18 {position: absolute; top: 8100px; left: 450px; z-index:1;}
+#star19 {position: absolute; top: 8500px; left: 650px; z-index:1;}
+#star20 {position: absolute; top: 8700px; left: 850px; z-index:1;}
+#star21 {position: absolute; top: 9000px; left: 50px; z-index:1;}
+#star22 {position: absolute; top: 9300px; left: 250px; z-index:1;}
+#star23 {position: absolute; top: 9500px; left: 450px; z-index:1;}
+#star24 {position: absolute; top: 9800px; left: 650px; z-index:1;}
+#star25 {position: absolute; top: 10000px; left: 850px; z-index:1;}
+#star26 {position: absolute; top: 11000px; left: 50px; z-index:1;}
+#star27 {position: absolute; top: 11500px; left: 250px; z-index:1;}
+#star28 {position: absolute; top: 11300px; left: 450px; z-index:1;}
+#star29 {position: absolute; top: 11700px; left: 650px; z-index:1;}
+#star30 {position: absolute; top: 12000px; left: 850px; z-index:1;}
+#star31 {position: absolute; top: 12200px; left: 50px; z-index:1;}
+#star32 {position: absolute; top: 12500px; left: 250px; z-index:1;}
+#star33 {position: absolute; top: 12700px; left: 450px; z-index:1;}
+#star34 {position: absolute; top: 13000px; left: 650px; z-index:1;}
+#star35 {position: absolute; top: 13100px; left: 850px; z-index:1;}
+#star36 {position: absolute; top: 13300px; left: 50px; z-index:1;}
+#star37 {position: absolute; top: 13600px; left: 250px; z-index:1;}
+#star38 {position: absolute; top: 13900px; left: 450px; z-index:1;}
+#star39 {position: absolute; top: 14000px; left: 50px; z-index:1;}
+#star40 {position: absolute; top: 14500px; left: 250px; z-index:1;}
+#star41 {position: absolute; top: 14300px; left: 450px; z-index:1;}
+#star42 {position: absolute; top: 14700px; left: 650px; z-index:1;}
+#star43 {position: absolute; top: 15000px; left: 850px; z-index:1;}
+#star44 {position: absolute; top: 15200px; left: 50px; z-index:1;}
+#star45 {position: absolute; top: 15500px; left: 250px; z-index:1;}
+#star46 {position: absolute; top: 15700px; left: 450px; z-index:1;}
+#star47 {position: absolute; top: 16000px; left: 650px; z-index:1;}
+#star48 {position: absolute; top: 16100px; left: 850px; z-index:1;}
+#star49 {position: absolute; top: 16300px; left: 50px; z-index:1;}
+#star50 {position: absolute; top: 16600px; left: 250px; z-index:1;}
+#star51 {position: absolute; top: 16900px; left: 450px; z-index:1;}
+#star52 {position: absolute; top: 17100px; left: 650px; z-index:1;}
+#star53 {position: absolute; top: 17500px; left: 850px; z-index:1;}
+#star54 {position: absolute; top: 17800px; left: 50px; z-index:1;}
+#star55 {position: absolute; top: 18000px; left: 250px; z-index:1;}
+#star56 {position: absolute; top: 18100px; left: 450px; z-index:1;}
+#star57 {position: absolute; top: 18500px; left: 650px; z-index:1;}
+#star58 {position: absolute; top: 18700px; left: 850px; z-index:1;}
+#star59 {position: absolute; top: 19000px; left: 50px; z-index:1;}
+#star60 {position: absolute; top: 19300px; left: 250px; z-index:1;}
+#star61 {position: absolute; top: 19500px; left: 450px; z-index:1;}
+#star62 {position: absolute; top: 19800px; left: 650px; z-index:1;}
+#star63 {position: absolute; top: 20000px; left: 850px; z-index:1;}
+#star64 {position: absolute; top: 20100px; left: 250px; z-index:1;}
+#star65 {position: absolute; top: 20300px; left: 450px; z-index:1;}
+#star66 {position: absolute; top: 20500px; left: 650px; z-index:1;}
+#star67 {position: absolute; top: 20700px; left: 850px; z-index:1;}
+#star68 {position: absolute; top: 21000px; left: 50px; z-index:1;}
+#star69 {position: absolute; top: 21300px; left: 250px; z-index:1;}
+#star70 {position: absolute; top: 21500px; left: 450px; z-index:1;}
+#star71 {position: absolute; top: 21800px; left: 650px; z-index:1;}
+#star72 {position: absolute; top: 22100px; left: 250px; z-index:1;}
+#star73 {position: absolute; top: 22300px; left: 450px; z-index:1;}
+#star74 {position: absolute; top: 22500px; left: 650px; z-index:1;}
+#star75 {position: absolute; top: 22400px; left: 850px; z-index:1;}
+#star76 {position: absolute; top: 22600px; left: 450px; z-index:1;}
+#star77 {position: absolute; top: 22800px; left: 650px; z-index:1;}
+#star78 {position: absolute; top: 22900px; left: 250px; z-index:1;}
+#star79 {position: absolute; top: 23000px; left: 450px; z-index:1;}
+#star80 {position: absolute; top: 23100px; left: 650px; z-index:1;}
+#star81 {position: absolute; top: 23200px; left: 850px; z-index:1;}
 
 /*#counter {
   border: 1px solid blue;
