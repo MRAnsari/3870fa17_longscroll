@@ -57,6 +57,12 @@ body {
   height: 20500px;
 }*/
 
+#lady {
+  position: absolute;
+  top: 23000px;
+  z-index: 15;
+}
+
 #moon {
   position: absolute;
   top: 1700px;
